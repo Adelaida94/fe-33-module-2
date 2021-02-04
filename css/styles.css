@@ -1,0 +1,37 @@
+:root {
+    --white-text: #FFFFFF;
+    --grey-text: #9DA4BD;
+    --grey-text-op60: #9DA4BD;
+    --grey-text-op40: rgba (157, 164, 189, 0.4);
+    --graphite: #303030;
+    --light-graphite: #555555;
+    --orange-text: #FF6C00;
+    --back-light-grey: rgba (247, 247, 247, 1)
+}
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+.header {
+    background-color: black;
+    color: var(--orange-text);
+}
+
+.header a {
+    /* color: white; */
+    /* color: inherit; */
+    /* color: currentColor; */
+    color: var(--white-text);
+}
+
+.hero {
+    background:cadetblue;
+}
+.hero-btn {
+    background-color: coral;
+}
+
+.title {
+    font-family: 'Raleway', sans-serif;
+}
